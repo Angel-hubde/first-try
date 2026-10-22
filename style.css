@@ -1,0 +1,60 @@
+/*
+Theme Name: Premier test GitHub Child Theme
+Theme URI: https://github.com/Angel-hubde/first-try
+Author: Équipe de développement
+Author URI: https://github.com/Angel-hubde/first-try
+Description: Thème enfant de base pour un projet WordPress.
+Template: twentytwentyfour
+Version: 1.0.0
+Text Domain: premier-test-github-child
+*/
+
+:root {
+  --child-primary: #1d4ed8;
+  --child-secondary: #0f172a;
+  --child-background: #f8fafc;
+  --child-text: #1e293b;
+}
+
+body {
+  background: var(--child-background);
+  color: var(--child-text);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+.site-header {
+  background: var(--child-secondary);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.site-title a,
+.site-navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background: var(--child-primary);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
